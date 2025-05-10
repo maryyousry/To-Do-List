@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 241, 254);
+}
+
+.text {
+    margin: auto ;
+    margin-top: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 16px rgba(122, 3, 80, 0.1);
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #410000;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .buttons input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .add-btn {
+    background-color: #69215f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .add-btn:hover
+  {
+    background-color: #a500a8;
+    transition: background-color 0.3s ease;
+  }
+
+    .button1
+    {
+        background-color: #004a5c;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .button2
+    {
+        background-color: #570004;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    li
+    {
+        font-family:'Lucida Sans',sans-serif ;
+        margin: auto;
+        line-height: 40px;
+        font-size: large;
+    }
